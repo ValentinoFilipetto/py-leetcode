@@ -1,6 +1,9 @@
 from collections import deque
 from typing import Optional
 
+# Time complexity: O(N)
+# Space complexity: O(N)
+
 
 # Definition for a binary tree node.
 class TreeNode:
