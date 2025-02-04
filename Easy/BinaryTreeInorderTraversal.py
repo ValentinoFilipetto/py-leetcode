@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-# Time complexity = O(N)
-# Space complexity = O(N)
+# Time complexity = O(n)
+# Space complexity = O(n)
 
 
 # Definition for a binary tree node.

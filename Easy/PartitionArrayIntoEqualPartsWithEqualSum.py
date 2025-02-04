@@ -1,6 +1,6 @@
 from typing import List
 
-# time complexity = O(N)
+# time complexity = O(n)
 # space complexity = O(1)
 
 

@@ -16,7 +16,7 @@ class SortingSolution:
         return False
 
 
-# Time complexity: O(n)
+# Time complexity: O(n), since set lookup is O(1) in Python due to hash table implementation
 # Space complexity: O(n)
 
 

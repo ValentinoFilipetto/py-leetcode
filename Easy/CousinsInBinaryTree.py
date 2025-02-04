@@ -19,7 +19,7 @@ class Solution:
         parents = []
 
         if not root:
-            return 0
+            return False
 
         while q:
             for i in range(len(q)):
