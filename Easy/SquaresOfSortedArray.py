@@ -1,7 +1,7 @@
 from typing import List
 
-# time complexity = O(N)
-# space complexity = O(N)
+# time complexity = O(n)
+# space complexity = O(n)
 
 
 class Solution:
