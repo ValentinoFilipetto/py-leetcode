@@ -1,3 +1,3 @@
-# py-leetcode
+# py-leetcode :smiling_imp:
 
-My leetcode solution in Python. 
+My leetcode solutions in Python
