@@ -1,14 +1,8 @@
 from typing import Optional
+from DataStructures import ListNode
 
 # Time complexity: O(n), where n is the size of the longest list
 # Space complexity: O(n + m) where n and m are the list sizes
-
-
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
 
 
 class Solution:

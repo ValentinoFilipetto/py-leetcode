@@ -1,15 +1,8 @@
 from typing import Optional
+from DataStructures import TreeNode
 
 # Time complexity: O(n + m)
 # Space complexity: O(number of nodes of the new tree)
-
-
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
 
 
 class Solution:

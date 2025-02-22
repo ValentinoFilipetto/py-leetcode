@@ -1,15 +1,8 @@
 from typing import List, Optional
+from DataStructures import TreeNode
 
 # Time complexity: O(n)
 # Space complexity: O(log n), as we consider the height of the returned tree
-
-
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
 
 
 class Solution:

@@ -1,16 +1,10 @@
 # Definition for a binary tree node.
 from collections import deque
 from typing import Optional
+from DataStructures import TreeNode
 
 # Time complexity: O(n)
 # Space complexity: O(1)
-
-
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
 
 
 class Solution:
