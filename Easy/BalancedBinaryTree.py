@@ -1,7 +1,7 @@
 from typing import Optional
 from DataStructures import TreeNode
 
-
+# PATTERN: DFS
 # Time complexity: O(n)
 # Space complexity: O(1)
 
