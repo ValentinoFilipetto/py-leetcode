@@ -1,11 +1,12 @@
 from typing import List, Optional
 from DataStructures import TreeNode
 
+# PATTERN: DFS
 # Time complexity = O(n)
 # Space complexity = O(n)
 
 
-class Solution:
+class RecursiveDfsSolution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         res = []
 
@@ -18,4 +19,23 @@ class Solution:
             inorder(root.right)
 
         inorder(root)
+        return res
+    
+# Time complexity = O(n)
+# Space complexity = O(n)
+    
+class IterativeDfsSolution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        stack, res = [], []
+        curr = root
+
+        while stack or curr:
+            while curr:
+                stack.append(curr)
+                curr = curr.left
+
+            curr = stack.pop()
+            res.append(curr.val)
+            curr = curr.right
+
         return res
