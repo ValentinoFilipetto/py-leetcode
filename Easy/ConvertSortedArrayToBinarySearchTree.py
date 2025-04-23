@@ -1,6 +1,7 @@
 from typing import List, Optional
 from DataStructures import TreeNode
 
+# Pattern: Binary search
 # Time complexity: O(n)
 # Space complexity: O(log n), as we consider the height of the returned tree
 
@@ -16,7 +17,7 @@ class Solution:
                 root.left = helper(l, m - 1)
                 root.right = helper(m + 1, r)
             else:
-                return None
+                return None # We create a leaf node
 
             return root
 

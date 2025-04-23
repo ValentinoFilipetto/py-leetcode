@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+# Pattern: Hash map
 # Time complexity: O(n)
 # Space complexity: O(n)
 

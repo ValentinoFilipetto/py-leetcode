@@ -1,5 +1,6 @@
 from typing import List
 
+# Pattern: hash set
 # Time complexity: O(m), where m is the length of nums1
 # Space complexity: O(m)
 

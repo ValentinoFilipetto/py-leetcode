@@ -1,5 +1,6 @@
 from typing import List
 
+# Pattern: Iteration
 # Time complexity: O(n)
 # Space complexity: O(n)
 

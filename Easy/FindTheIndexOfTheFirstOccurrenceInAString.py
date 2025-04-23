@@ -1,3 +1,4 @@
+# Pattern: Sliding window
 # time complexity = O(m * n)
 # space complexity = O(1)
 

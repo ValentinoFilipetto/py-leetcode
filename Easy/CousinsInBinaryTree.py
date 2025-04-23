@@ -3,6 +3,7 @@ from collections import deque
 from typing import Optional
 from DataStructures import TreeNode
 
+# Pattern: BFS
 # Time complexity: O(n)
 # Space complexity: O(1)
 
@@ -34,7 +35,7 @@ class Solution:
             if len(parents) < 2:
                 parents = []
 
-            if len(parents) == 2 and parents[0] != parents[1]:
+            if len(parents) == 2 and parents[0] != parents[1]: # To be cousins, they must have same depth and different parents
                 return True
 
         return False

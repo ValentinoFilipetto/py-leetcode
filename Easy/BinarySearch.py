@@ -1,6 +1,6 @@
 from typing import List
 
-# PATTERN: Sliding Window
+# PATTERN: Binary search
 # Time complexity: n(log n)
 # Space complexity: O(1)
 

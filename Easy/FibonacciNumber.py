@@ -1,16 +1,16 @@
-class Solution:
+# Pattern: DP via hash map
+# Time complexity: O(n)
+# Space complexity: O(n)
+
+class Solution(object):
     def fib(self, n: int) -> int:
         fibValues = {0 :0, 1: 1}
 
-        if n == 0:
-            return 0
+        def solver(n: int) -> int:
+            if n in fibValues:
+                return fibValues[n]
 
-        if n == 1:
-            return 1
+            fibValues[n] = solver(n - 1) + solver(n - 2)
+            return fibValues[n]
 
-        res1 = fibValues[n - 1] if n - 1 in fibValues.keys() else self.fib(n - 1)
-        res2 = fibValues[n - 2] if n - 2 in fibValues.keys() else self.fib(n - 2)
-
-        fibValues[n] = res1 + res2
-
-        return res1 + res2
+        return solver(n)
