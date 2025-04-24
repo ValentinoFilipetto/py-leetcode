@@ -1,5 +1,8 @@
 from typing import List
 
+# Pattern: Two Pointers with Array Manipulation.
+# Time complexity: O(m x n)
+# Space complexity: O(min(m, n))
 
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:

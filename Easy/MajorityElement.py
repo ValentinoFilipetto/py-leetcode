@@ -1,5 +1,6 @@
 from typing import List
 
+# Pattern: Hash Map
 # Time complexity: O(n)
 # Space complexity: O(n)
 
@@ -18,12 +19,11 @@ class LinearSpaceSolution:
             if hash_map[num] > n / 2:
                 return num
 
-
-# Time complexity: O(n)
-# Space complexity: O(1)
-# aka "Boyer–Moore majority vote algorithm"
+# Pattern: "Boyer–Moore majority vote algorithm"
 # idea: Because this majority element occurs more than n/2 (floor value) times,
 # even if other elements will 'vote against it', it will win.
+# Time complexity: O(n)
+# Space complexity: O(1)
 
 
 class ConstantSpaceSolution:

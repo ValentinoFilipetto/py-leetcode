@@ -1,7 +1,8 @@
 from typing import List
 
-# time complexity = O(m * n)
-# space complexity = O(1)
+# Pattern: Horizontal Scanning
+# time complexity = O(m x n) where m is the length of the shortest string and n is number of strings.
+# space complexity = O(m), where m is the length of the shortest string in strs.
 
 
 class Solution:
