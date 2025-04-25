@@ -1,6 +1,7 @@
 from typing import Optional
 from DataStructures import TreeNode
 
+# Pattern: DFS
 # Time complexity: O(n + m)
 # Space complexity: O(number of nodes of the new tree)
 

@@ -1,8 +1,11 @@
 from typing import Optional
 from DataStructures import ListNode
 
-# Time complexity: O(n), where n is the size of the longest list
-# Space complexity: O(n + m) where n and m are the list sizes
+# Pattern: Two Pointers
+# Time complexity: O(n + m), where n and m are the list sizes
+# Space complexity: O(1), as the algorithm uses a constant amount of extra space for the dummy node and pointers
+# The merged list is constructed by reusing the nodes from the input lists,
+# so no additional memory is allocated for the nodes themselves.
 
 
 class Solution:

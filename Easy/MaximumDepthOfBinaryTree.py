@@ -2,6 +2,7 @@ from collections import deque
 from typing import Optional
 from DataStructures import TreeNode
 
+# Pattern: BFS
 # Time complexity: O(n)
 # Space complexity: O(n)
 
