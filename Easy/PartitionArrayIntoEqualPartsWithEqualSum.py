@@ -1,7 +1,9 @@
 from typing import List
 
-# time complexity = O(n)
-# space complexity = O(1)
+# Pattern: Prefix Sum.
+# A prefix sum is a technique where you compute the cumulative sum of elements in an array up to each index.
+# Time complexity = O(n)
+# Space complexity = O(1)
 
 
 class Solution:

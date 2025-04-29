@@ -1,5 +1,6 @@
 from typing import List
 
+# Pattern: DP
 # Time complexity: O(n^2), where n is numRows. We have n rows and each row contains up to n elements.
 # Space complexity: O(n^2), considering the final array
 

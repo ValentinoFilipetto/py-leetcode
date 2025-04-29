@@ -1,7 +1,13 @@
 from typing import List
 
-# time complexity = O(n)
-# space complexity = O(1)
+# Pattern: Loops and Array Manipulation.
+# Time complexity = O(n)
+# Space complexity = O(1)
+
+# The space complexity of this algorithm is considered "amortized O(1)" because,
+# in most cases, the algorithm modifies the input list in place without allocating additional space.
+# However, in specific edge cases (e.g., when all digits are 9), a new list of size n + 1 is created,
+# which temporarily increases the space complexity to O(n).
 
 
 class Solution:
