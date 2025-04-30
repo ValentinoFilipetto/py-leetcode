@@ -1,6 +1,7 @@
 from typing import Optional
 from DataStructures import ListNode
 
+# Pattern: Sorting
 # Time complexity: O(n)
 # Space complexity O(n)
 
@@ -22,20 +23,21 @@ class LinearSpaceSolution:
             my_linked_list = my_linked_list.next
 
         return res.next
-    
+
+# Pattern: Two Pointers
 # Time complexity: O(n)
 # Space complexity O(1)
-    
+
 class ConstantSpaceSolution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:  
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         prev, curr = None, head
-        
+
         while curr:
             tmp = curr.next
             curr.next = prev
             prev = curr
             curr = tmp
-        
+
         return prev
-    
+
 # Recursive solution: to be added

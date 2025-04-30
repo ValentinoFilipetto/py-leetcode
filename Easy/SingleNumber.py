@@ -1,5 +1,6 @@
 from typing import List
 
+# Pattern: Bit-Wise operators (XOR)
 # Time complexity: O(n)
 # Space complexity: O(1)
 

@@ -1,5 +1,6 @@
 from typing import List
 
+# Pattern: Two Pointers
 # Time complexity: O(n)
 # Space complexity: O(1)
 
