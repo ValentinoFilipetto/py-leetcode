@@ -1,6 +1,7 @@
 from typing import Optional
 from DataStructures import ListNode
 
+# Pattern: Iteration
 # Time complexity: O(n)
 # Space complexity: O(n)
 
@@ -22,7 +23,7 @@ class LinearSpaceSolution:
 
         return res_head
 
-
+# Pattern: Two Pointers
 # Time complexity: O(n)
 # Space complexity: O(1)
 

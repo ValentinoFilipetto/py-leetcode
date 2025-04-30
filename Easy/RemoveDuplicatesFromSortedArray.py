@@ -1,12 +1,13 @@
 from typing import List
 
-# time complexity = O(2N) os O(N)
-# space complexity = O(1), as we sort in place.
+# Pattern: Two Pointers
+# Time complexity = O(n)
+# Space complexity = O(1), as we modify the array in place.
 
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        l = 1
+        l = 1 # number of unique elements
 
         for r in range(1, len(nums)):
             if nums[r] != nums[r - 1]:
@@ -14,3 +15,4 @@ class Solution:
                 l += 1
 
         return l
+
