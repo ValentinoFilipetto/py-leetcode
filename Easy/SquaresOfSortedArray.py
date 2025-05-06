@@ -1,7 +1,8 @@
 from typing import List
 
-# time complexity = O(n)
-# space complexity = O(n)
+# Pattern: Two Pointers
+# Time complexity = O(n)
+# Space complexity = O(n)
 
 
 class Solution:

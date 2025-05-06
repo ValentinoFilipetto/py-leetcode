@@ -1,5 +1,6 @@
-# time complexity = O(N)
-# space complexity = O(1)
+# Pattern: Hash Table
+# Time complexity = O(n)
+# Space complexity = O(1)
 
 
 class Solution:

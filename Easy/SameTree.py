@@ -1,6 +1,11 @@
 from typing import Optional
 from DataStructures import TreeNode
 
+# Pattern: DFS
+# Time complexity: O(n)
+# Space complexity: O(h) where h is the height of the tree
+# This is because the maximum depth of the recursion stack will be h, which is the height of the
+# (worst case - completely unbalanced) tree.
 
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:

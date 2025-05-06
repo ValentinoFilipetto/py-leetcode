@@ -1,7 +1,8 @@
 from typing import List
 
-# time complexity = O(N)
-# space complexity = O(N)
+# Pattern: Hash Map
+# Time complexity = O(n)
+# Space complexity = O(n)
 
 
 class Solution:

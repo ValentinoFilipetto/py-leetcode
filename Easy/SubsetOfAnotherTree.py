@@ -1,6 +1,10 @@
 from typing import Optional
 from DataStructures import TreeNode
 
+# Pattern: DFS
+# Time complexity: O(n * m) where n is the number of nodes in the main tree and m is the number of nodes in the subtree.
+# Space complexity: O(h) where h is the height of the main tree due to recursion stack.
+
 
 class Solution:
     def sameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
