@@ -1,22 +1,26 @@
 from typing import List
 
+# Pattern: Two Pointers
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 
-class Solution:
-    def summaryRanges(self, nums: List[int]) -> List[str]:
+
+class Solution(object):
+    def summaryRanges(self, nums):
         res = []
+        i = 0
 
-        if not nums:
-            return res
+        while i < len(nums):
+            start = nums[i]
 
-        start = nums[0]
+            while i < len(nums) - 1 and nums[i + 1] == nums[i] + 1:
+                i += 1
 
-        for i in range(1, len(nums) + 1):
-            if i == len(nums) or nums[i] != nums[i - 1] + 1:
-                if nums[i - 1] == start:
-                    res.append(f"{start}")
-                else:
-                    res.append(f"{start}->{nums[i - 1]}")
-                if i < len(nums):
-                    start = nums[i]
+            if start == nums[i]:
+                res.append(str(start))
+            else:
+                res.append(str(start) + '->' + str(nums[i]))
+
+            i += 1
 
         return res

@@ -2,9 +2,9 @@ from collections import deque
 from typing import Optional
 from DataStructures import TreeNode
 
+# Pattern: BFS
 # Time complexity: O(n)
-# Space complexity: O(1)
-
+# Space complexity: O(n), for the queue in the worst case.
 
 class Solution:
     def isUnivalTree(self, root: Optional[TreeNode]) -> bool:
