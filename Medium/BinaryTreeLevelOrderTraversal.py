@@ -2,6 +2,7 @@ from collections import deque
 from typing import List, Optional
 from DataStructures import TreeNode
 
+# Pattern: BFS
 # Time complexity: O(n)
 # Space complexity: O(n)
 
@@ -9,7 +10,6 @@ from DataStructures import TreeNode
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         q = deque([root])
-        print(q)
 
         if not root:
             return []
@@ -17,18 +17,18 @@ class Solution:
         res = [[root.val]]
 
         while q:
-            to_append = []
+            nodes_visited = []
             for i in range(len(q)):
                 node = q.popleft()
 
                 if node.left:
                     q.append(node.left)
-                    to_append.append(node.left.val)
+                    nodes_visited.append(node.left.val)
                 if node.right:
                     q.append(node.right)
-                    to_append.append(node.right.val)
+                    nodes_visited.append(node.right.val)
 
-            if len(to_append) != 0:
-                res.append(to_append)
+            if len(nodes_visited) != 0: # otherwise we would append "empty levels"
+                res.append(nodes_visited)
 
         return res

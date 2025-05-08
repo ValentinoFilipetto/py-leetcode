@@ -1,3 +1,7 @@
+# Pattern: Stack
+# Time complexity: O(n)
+# Space complexity: O(n)
+
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []

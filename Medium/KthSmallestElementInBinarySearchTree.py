@@ -2,7 +2,8 @@ from collections import deque
 from typing import Optional
 from DataStructures import TreeNode
 
-# Time complexity: O(n logn)
+# Pattern: BFS
+# Time complexity: O(n log n), because of sorting of the list of nodes.
 # Space complexity: O(n)
 
 
