@@ -3,7 +3,7 @@ from DataStructures import TreeNode
 
 # Pattern: DFS
 # Time complexity: O(n + m)
-# Space complexity: O(m + n)
+# Space complexity: O(n + m)
 
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
