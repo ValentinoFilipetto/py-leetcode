@@ -1,6 +1,6 @@
 from typing import List
 
-# PATTERN: Binary search
+# Pattern: Binary search
 # Time complexity: n(log n)
 # Space complexity: O(1)
 

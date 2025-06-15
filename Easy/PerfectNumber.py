@@ -4,6 +4,7 @@ import math
 # Time complexity: O(sqrt(n))
 # Space complexity: O(1)
 
+
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
         if num < 5:

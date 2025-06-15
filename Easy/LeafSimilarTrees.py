@@ -5,6 +5,7 @@ from DataStructures import TreeNode
 # Time complexity: O(n + m)
 # Space complexity: O(n + m)
 
+
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
         leaf_sequence1, leaf_sequence2 = [], []

@@ -1,6 +1,6 @@
 from typing import List
 
-# PATTERN: Sliding Window
+# Pattern: Sliding Window
 # Time complexity: O(n log n), because of sorting
 # Space complexity: O(1)
 
@@ -16,7 +16,8 @@ class SortingSolution:
 
         return False
 
-# PATTERN: Hash set
+
+# Pattern: Hash set
 # Time complexity: O(n), since set lookup is O(1) in Python due to hash set implementation
 # Space complexity: O(n)
 

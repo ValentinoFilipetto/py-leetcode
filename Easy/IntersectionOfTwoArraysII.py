@@ -4,6 +4,7 @@ from typing import List
 # Time complexity: O(m x n)
 # Space complexity: O(min(m, n))
 
+
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         res = []

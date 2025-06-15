@@ -1,6 +1,6 @@
 from typing import List
 
-# PATTERN: Sliding Window
+# Pattern: Sliding Window
 # Time complexity = O(n)
 # Space complexity = O(1)
 

@@ -6,6 +6,7 @@ from DataStructures import TreeNode
 # Time complexity: O(n)
 # Space complexity: O(h), where h is the height of the tree.
 
+
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
 

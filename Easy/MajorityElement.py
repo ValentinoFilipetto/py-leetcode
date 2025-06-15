@@ -19,6 +19,7 @@ class LinearSpaceSolution:
             if hash_map[num] > n / 2:
                 return num
 
+
 # Pattern: "Boyer–Moore majority vote algorithm"
 # idea: Because this majority element occurs more than n/2 (floor value) times,
 # even if other elements will 'vote against it', it will win.

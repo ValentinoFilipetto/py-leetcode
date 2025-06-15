@@ -4,6 +4,7 @@ from typing import List
 # Time complexity: O(n), where n is the length of the array.
 # Space complexity: O(1)
 
+
 class Solution:
     def validMountainArray(self, arr: List[int]) -> bool:
         i = 0

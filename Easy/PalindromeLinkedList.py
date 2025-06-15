@@ -5,6 +5,7 @@ from DataStructures import ListNode
 # Time complexity: O(n)
 # Space complexity: O(n)
 
+
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
         res = []

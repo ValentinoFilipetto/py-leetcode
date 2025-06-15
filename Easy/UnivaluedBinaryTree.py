@@ -6,6 +6,7 @@ from DataStructures import TreeNode
 # Time complexity: O(n)
 # Space complexity: O(n), for the queue in the worst case.
 
+
 class Solution:
     def isUnivalTree(self, root: Optional[TreeNode]) -> bool:
         if not root:

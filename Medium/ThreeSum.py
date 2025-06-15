@@ -10,7 +10,7 @@ class Solution:
         nums.sort()
 
         for i, a in enumerate(nums):
-            ## If nums[i - 1] was an `a` of a successful triplet
+            ## If nums[i - 1] was an `a` of a successful triplet,
             ## if we do not skip nums[i], we will add that very same triplet again.
             if i > 0 and a == nums[i - 1]:
                 continue

@@ -4,6 +4,7 @@ from typing import List
 # Time complexity: O(n x log n)
 # Space complexity: O(1)
 
+
 class SortingSolution:
     def missingNumber(self, nums: List[int]) -> int:
         max_number = len(nums)
@@ -20,6 +21,7 @@ class SortingSolution:
             if nums[i + 1] > nums[i] + 1:
                 return nums[i] + 1
 
+
 # Pattern: bitwise operators (XOR)
 # Time complexity: O(n)
 # Space complexity: O(n)
@@ -27,6 +29,7 @@ class SortingSolution:
 # XOR all the numbers in the range and the array together:
 # - Numbers that appear in both the range and the array cancel out.
 # - The missing number is the only one left because it does not have a counterpart in the array.
+
 
 class XorSolution:
     def missingNumber(self, nums: List[int]) -> int:

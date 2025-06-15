@@ -13,7 +13,10 @@ class Solution:
         while l < r:
             add = numbers[l] + numbers[r]
             if add == target:
-                return [l + 1, r + 1] # A solution is guaranteed, so we can return here. 
+                return [
+                    l + 1,
+                    r + 1,
+                ]  # A solution is guaranteed, so we can return here.
             elif add > target:
                 r -= 1
             elif add < target:

@@ -24,6 +24,7 @@ class LinearSpaceSolution:
 
         return False
 
+
 # Pattern: two pointers (Floyd's Cycle Detection Algorithm)
 # Time complexity: O(n)
 # Space complexity: O(1)

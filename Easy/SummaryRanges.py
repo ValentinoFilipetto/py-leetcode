@@ -19,7 +19,7 @@ class Solution(object):
             if start == nums[i]:
                 res.append(str(start))
             else:
-                res.append(str(start) + '->' + str(nums[i]))
+                res.append(str(start) + "->" + str(nums[i]))
 
             i += 1
 

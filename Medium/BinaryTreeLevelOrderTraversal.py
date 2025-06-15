@@ -28,7 +28,7 @@ class Solution:
                     q.append(node.right)
                     nodes_visited.append(node.right.val)
 
-            if len(nodes_visited) != 0: # otherwise we would append "empty levels"
+            if len(nodes_visited) != 0:  # otherwise we would append "empty levels"
                 res.append(nodes_visited)
 
         return res

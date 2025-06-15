@@ -23,6 +23,7 @@ class LinearSpaceSolution:
 
         return res_head
 
+
 # Pattern: Two Pointers
 # Time complexity: O(n)
 # Space complexity: O(1)

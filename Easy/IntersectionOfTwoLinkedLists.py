@@ -6,6 +6,7 @@ from DataStructures import ListNode
 # Time complexity: O(m + n)
 # Space complexity: O(m + n)
 
+
 class HashMapSolution:
     def getIntersectionNode(
         self, headA: ListNode, headB: ListNode
@@ -25,6 +26,7 @@ class HashMapSolution:
                 return node
 
         return None
+
 
 # Pattern: Two pointers
 # Time complexity: O(m + n)

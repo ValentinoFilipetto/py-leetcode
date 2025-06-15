@@ -4,6 +4,7 @@
 
 # Idea: the integer square root to be found is the largest integer m such that m^2 ≤ x.
 
+
 class Solution:
     def mySqrt(self, x: int) -> int:
         l, r = 0, x
@@ -16,7 +17,7 @@ class Solution:
                 r = m - 1
             elif m**2 < x:
                 l = m + 1
-                res = m # keep track of the largest m such that m^2 <= x
+                res = m  # keep track of the largest m such that m^2 <= x
             else:
                 return m
         return res

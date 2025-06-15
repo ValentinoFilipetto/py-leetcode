@@ -24,9 +24,11 @@ class LinearSpaceSolution:
 
         return res.next
 
+
 # Pattern: Two Pointers
 # Time complexity: O(n)
 # Space complexity O(1)
+
 
 class ConstantSpaceSolution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
@@ -39,5 +41,6 @@ class ConstantSpaceSolution:
             curr = tmp
 
         return prev
+
 
 # Recursive solution: to be added

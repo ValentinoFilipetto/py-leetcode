@@ -35,7 +35,9 @@ class Solution:
             if len(parents) < 2:
                 parents = []
 
-            if len(parents) == 2 and parents[0] != parents[1]: # To be cousins, they must have same depth and different parents
+            if (
+                len(parents) == 2 and parents[0] != parents[1]
+            ):  # To be cousins, they must have same depth and different parents
                 return True
 
         return False

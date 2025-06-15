@@ -17,7 +17,7 @@ class Solution:
                 root.left = helper(l, m - 1)
                 root.right = helper(m + 1, r)
             else:
-                return None # We create a leaf node
+                return None  # We create a leaf node
 
             return root
 

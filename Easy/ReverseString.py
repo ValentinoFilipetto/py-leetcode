@@ -4,6 +4,7 @@ from typing import List
 # Time complexity: O(n)
 # Space complexity: O(1)
 
+
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         l, h = 0, len(s) - 1

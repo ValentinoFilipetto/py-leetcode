@@ -9,6 +9,7 @@
 # as n is always a 32-bit integer, hence the while loop will
 # always run at most 32 times.
 
+
 class Solution:
     def hammingWeight(self, n: int) -> int:
         count = 0
