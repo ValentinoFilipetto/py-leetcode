@@ -1,6 +1,6 @@
 from typing import List
 
-# Pattern: Backtracking
+# Pattern: Backtracking (DFS)
 # How backtracking works:
 # - build a solution step by step (often recursively)
 # - at each step, make a choice from a set of options
@@ -25,11 +25,13 @@ class Solution:
                 res.append("".join(stack))
                 return
 
+            # decision to add "("
             if open_n < n:
                 stack.append("(")
                 backtrack(open_n + 1, closed_n, stack)
                 stack.pop()
 
+            # decision to add ")"
             if closed_n < open_n:
                 stack.append(")")
                 backtrack(open_n, closed_n + 1, stack)
